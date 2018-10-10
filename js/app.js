@@ -2,7 +2,7 @@
 
 var username = prompt('Hello and welcome to my website, first what shall I call you?');
 
-var speak = prompt('Hola " + username + " Puede hablar espanol? y/n?').toLowerCase();
+var speak = prompt('Hola ' + username +  ' Puede hablar espanol? y/n?').toLowerCase();
 
 if (speak === 'y' ){
     alert('Bueno, Aprendi a hablar en Buenos Airies y Barcelona! ')
@@ -19,7 +19,7 @@ if( hobby === true){
 else{alert('I will show myself out');
 console.log('user did not confirm');}
 
-var joy = prompt('So " + username + " Did you enjoy learning about me? y/n?').toLowerCase();
+var joy = prompt('So ' + username + 'Did you enjoy learning about me? y/n?').toLowerCase();
 
 if (joy === 'y' ){
     alert('Great I enjoyed meeting you too! ')
