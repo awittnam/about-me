@@ -5,3 +5,18 @@ body {
    color: rgb(27, 24, 25);
     background: grey;
 }
+h1{
+    text-align: left;
+}
+p.jujitsu{
+    min-width: 450px;
+    max-width: 650px;
+    text-align: left;
+    padding: 5px;
+    margin: 0px;
+
+}
+#jits{
+    float:left;
+    margin: 0 0 0 15px;
+}
