@@ -1,6 +1,8 @@
 'use strict';
 
-/*var username = prompt('Hello and welcome to my website, first what shall I call you?');
+var username = prompt('Hello and welcome to my website, first what shall I call you?');
+
+function questionOne() {
 
 var speak = prompt('Hola ' + username +  ' Puede hablar espanol? y/n?').toLowerCase();
 
@@ -10,7 +12,10 @@ if (speak === 'y' ){
 }
 else{alert("That's okay I learned to speak Spanish in Buenos Airies and Barcelona!");
 console.log('user selected no');};
+}
+questionOne();
 
+function questionTwo() {
 var hobby = confirm( 'Would you like to know my hobby?')
 if( hobby === true){
     alert('I currently train Brazilian Ju Jitsu with my friend Ashton who is also a student at Codefellows');
@@ -18,7 +23,10 @@ if( hobby === true){
 }
 else{alert('I will show myself out');
 console.log('user did not confirm');}
+}
+questionTwo();
 
+function questionThree () {
 var joy = prompt('So ' + username + 'Did you enjoy learning about me? y/n?').toLowerCase();
 
 if (joy === 'y' ){
@@ -27,15 +35,20 @@ if (joy === 'y' ){
 }
 else{ alert('I will show myself out.');
 console.log('user selected no');};
+}
+questionThree();
 
+function questionFour() {
 var creditCard = confirm('Since we are now such good friends can you please give me your credit card information?');
 if (creditCard === true){alert('What a true friend');
 console.log('user is a friend'); }
 else{alert('some friend you are.');
 console.log('user is not friend');
 };
+}
+questionFour();
 
-
+function questionFive() {
 alert("Now lets play a game, guess how many countries I have been to in my life, you only have 4 chances to get this right so we need to focus")
 var correctAnswer = 6;
 var guess = prompt("Guess a number between 1-10");
@@ -60,6 +73,10 @@ for(var i=1; i< 4; i++){
  }
 
 alert("Now let's guess which cities i have lived in, you have seven tries to complete it")
+}
+questionFive();
+
+function questionSix() {
 var city = ["Barcelona","Dublin","London"];
 var guess = prompt("Guess a city");
 var i = 0;
@@ -79,4 +96,6 @@ if (guess === city[1] || guess === city[0] || guess === city[2] ){
     alert("Leave in shame.")
     break;
   }
-}*/
+}
+}
+questionSix();
