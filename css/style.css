@@ -6,17 +6,28 @@ body {
     background: grey;
 }
 h1{
-    text-align: left;
+    text-align: center;
 }
-p.jujitsu{
+p.aboutme{
     min-width: 450px;
     max-width: 650px;
     text-align: left;
+    border:solid black;
     padding: 5px;
     margin: 0px;
 
 }
 #jits{
-    float:left;
+    
     margin: 0 0 0 15px;
+}
+}
+h2{
+    float: right;
+    box-align: left;
+    
+#movies{
+    float: right;
+    box-align: left;
+
 }

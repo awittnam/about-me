@@ -1,6 +1,6 @@
 'use strict';
 
-var username = prompt('Hello and welcome to my website, first what shall I call you?');
+/*var username = prompt('Hello and welcome to my website, first what shall I call you?');
 
 var speak = prompt('Hola ' + username +  ' Puede hablar espanol? y/n?').toLowerCase();
 
@@ -79,4 +79,4 @@ if (guess === city[1] || guess === city[0] || guess === city[2] ){
     alert("Leave in shame.")
     break;
   }
-}
+}*/
